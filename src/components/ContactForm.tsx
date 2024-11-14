@@ -10,7 +10,7 @@ const ContactForm: React.FC = () => {
         Lets Work Together
       </h1>
       <p className="contact-form-subheading">
-        Have a project in mind or need assistance? Let's connect! I am here to listen, collaborate, and bring your ideas to life. Reach out, and together, we can create something impactful!
+        Have a project in mind or need assistance? Let is connect! I am here to listen, collaborate, and bring your ideas to life. Reach out, and together, we can create something impactful!
       </p>
       <form className="form-sec">
         <div className="input-group input-group-md">

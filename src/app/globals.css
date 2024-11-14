@@ -1,4 +1,88 @@
-:root {
+@layer components {
+  .nav_link{
+  @apply relative text-base font-medium w-fit block after:content-[''] after:absolute after:h-[3px]
+  after:bg-[#FF6500]  text-white after:w-0 after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right after:left-0 after:bottom-0;
+
+}
+
+.nav_link:hover {
+  @apply after:w-full after:scale-x-100 ; 
+}
+}
+
+
+/* .text-bg{
+  background-image: linear-gradient(to right , #1E3E62 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar{
+  height:10px;
+  width:10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track{
+  background: #1E3E62;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb{
+  background: #6EACDA;
+  border-radius: 4px;
+} */
+
+
+/* .nav_link ::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #FF6500;
+  width: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+  transform-origin: right;
+  left: 0;
+  bottom: 0;
+}
+
+.nav_link:hover::after {
+  width: 100%;
+  transform: scaleX(1);
+} */
+
+
+
+/* Text Background Gradient */
+.text-bg {
+  background-image: linear-gradient(to right, #1E3E62 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1E3E62;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #6EACDA;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -8,7 +92,7 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
@@ -16,13 +100,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 * {
   box-sizing: border-box;
@@ -30,13 +108,13 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
+/* a {
+  color: white;
   text-decoration: none;
-}
+}  */
 
-@media (prefers-color-scheme: dark) {
+ /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+*/

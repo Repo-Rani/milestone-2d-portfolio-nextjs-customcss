@@ -17,7 +17,7 @@ const TypingEffect: React.FC = () => {
           1000,
         ]}
         wrapper="span"
-        speed={50 as any} 
+        speed={50} 
         className="typeWritter-section"
         repeat={Infinity}
       />

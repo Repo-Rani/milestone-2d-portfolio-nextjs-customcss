@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+
 const TypingEffect: React.FC = () => {
   return (
     <>
@@ -16,9 +17,8 @@ const TypingEffect: React.FC = () => {
           1000,
         ]}
         wrapper="span"
-        // @ts-ignore
-        speed={50} 
-        className="typeWritter-section "
+        speed={50 as any} 
+        className="typeWritter-section"
         repeat={Infinity}
       />
     </>

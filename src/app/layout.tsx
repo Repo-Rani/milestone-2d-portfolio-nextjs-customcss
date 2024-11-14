@@ -10,7 +10,7 @@ const font = Sora({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "RaniCretions Portfolio",
+  title: "RaniCreations Portfolio",
   description: "Ranidev Portfolio with next js",
 };
 export default function RootLayout({

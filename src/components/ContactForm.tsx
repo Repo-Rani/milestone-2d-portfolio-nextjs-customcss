@@ -4,7 +4,7 @@ const ContactForm: React.FC = () => {
   return (
     <div className="contact-form-container">
       <h1 className=" text-bg contact-form-heading">
-        Let's Work Together
+        Let is Work Together
       </h1>
       <p className="contact-form-subheading">
         Have a project in mind or need assistance? Let's connect! I am here to listen, collaborate, and bring your ideas to life. Reach out, and together, we can create something impactful!
